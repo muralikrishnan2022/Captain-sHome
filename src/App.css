@@ -1,0 +1,196 @@
+/* Basic styles for the App */
+.App {
+  text-align: center;
+}
+
+/* Styles for the Navbar */
+.navbar {
+  background-color: #282c34;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 50px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 1rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.navbar li {
+  color: white;
+  cursor: pointer;
+}
+
+/* Styles for Popup */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(135deg, #ffcccb, #d1c4e9, #fff9c4);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 80%;
+  max-width: 500px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.popup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  z-index: 1001;
+}
+
+.popup h2 {
+  margin-bottom: 1.5rem;
+}
+
+.popup-field {
+  margin-bottom: 1rem;
+}
+
+.popup-field label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.popup-field input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.popup-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.popup button {
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.popup .submit-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.popup .submit-btn:hover {
+  background-color: #218838;
+}
+
+.popup .do-it-later {
+  background-color: #d0e8ff;
+  color: #007bff;
+}
+
+.popup .do-it-later:hover {
+  background-color: #b3d7ff;
+}
+
+/* Styles for Home */
+.home {
+  padding: 2rem;
+}
+
+/* Styles for AboutUs */
+.about-us {
+  display: flex;
+  padding: 2rem;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-images {
+  flex: 1;
+  /* Add styles for images */
+}
+
+/* Styles for OurAchievements */
+.our-achievements {
+  padding: 2rem;
+}
+
+.charts {
+  /* Add styles for charts */
+}
+
+/* Styles for OurPlanet */
+.our-planet {
+  padding: 2rem;
+}
+
+.planet-animation {
+  /* Add styles for planet animations */
+}
+
+/* Styles for Testimonials */
+.testimonials {
+  padding: 2rem;
+}
+
+.testimonial-slider {
+  /* Add styles for testimonial slider */
+}
+
+/* Styles for ContactUs */
+.contact-us {
+  padding: 2rem;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  margin: 0.5rem 0;
+}
+
+/* Styles for SocialMediaSidebar */
+.social-media-sidebar {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #282c34;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-sidebar a {
+  color: white;
+  margin: 0.5rem 0;
+  text-decoration: none;
+}
